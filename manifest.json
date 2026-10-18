@@ -1,23 +1,21 @@
 {
   "name": "Lapster: The before and after Master",
   "short_name": "Lapster",
-  "description": "Create professional before & after comparisons. 2-day free trial, then lifetime for $4.99.",
-  "start_url": "./index.html",
+  "description": "Create professional before & after comparisons. 2-day free trial, then $4.99 lifetime.",
+  "start_url": "/",
   "display": "standalone",
-  "background_color": "#f9fafb",
+  "background_color": "#ffffff",
   "theme_color": "#1a73e8",
   "icons": [
     {
       "src": "icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
       "src": "icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ]
 }
