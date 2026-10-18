@@ -1,0 +1,35 @@
+Google Play Store Listing
+========================
+
+App name: Lapster: The before and after Master
+
+Short description:
+Create stunning before & after comparisons. 2-day free trial, then lifetime access for $4.99.
+
+Full description:
+Lapster: The before and after Master helps you create clean, professional before & after photos in seconds.
+
+Perfect for:
+• Fitness & weight-loss progress
+• Beauty & skincare transformations
+• Hair, beard, and smile makeovers
+• Home renovations and design projects
+• Client results for coaches and stylists
+
+Features:
+• Interactive slider comparison
+• BEFORE / AFTER labels
+• High-quality export
+• Works offline as a PWA
+• Simple one-time pricing
+
+Pricing:
+• 2-day free trial
+• Lifetime access for $4.99 (billed once after the trial if you don’t cancel)
+• No yearly plan. No recurring subscription. No other prices.
+
+Privacy Policy URL: https://scottlev696-cpu.github.io/lapster/privacy.html
+(Replace with the live GitHub Pages URL after hosting.)
+
+Category: Photography or Lifestyle
+Content rating: Everyone

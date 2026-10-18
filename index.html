@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lapster: The before and after Master</title>
+  <meta name="description" content="Lapster: The before and after Master — create stunning before & after comparisons. 2-day free trial, then lifetime access for $4.99.">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1a73e8">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+</head>
+<body>
+  <header class="header">
+    <div class="wordmark">Lapster: The before and after Master</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Lapster: The before and after Master</h1>
+      <p class="tagline">Create professional before & after comparisons in seconds. Perfect for fitness, beauty, renovations, and more.</p>
+      <div class="cta">
+        <a href="#paywall" class="btn primary">Start 2-Day Free Trial</a>
+        <p class="trial-note">Then lifetime access for $4.99 — billed once if you don’t cancel.</p>
+      </div>
+      <div class="demo-slider">
+        <div class="before-after">
+          <div class="ba-container">
+            <img src="assets/before.jpg" alt="Before" class="ba-img before">
+            <img src="assets/after.jpg" alt="After" class="ba-img after">
+            <div class="slider-handle"></div>
+          </div>
+          <div class="labels"><span>BEFORE</span><span>AFTER</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Why Lapster: The before and after Master?</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Instant Comparisons</h3>
+          <p>Drag the slider to reveal the transformation. Clean, professional layouts.</p>
+        </div>
+        <div class="card">
+          <h3>Labels & Overlays</h3>
+          <p>Add BEFORE / AFTER labels, arrows, and text with one tap.</p>
+        </div>
+        <div class="card">
+          <h3>High Quality Export</h3>
+          <p>Save and share high-resolution images ready for social media or clients.</p>
+        </div>
+        <div class="card">
+          <h3>Works Offline</h3>
+          <p>Install as a PWA. No internet required after the first load.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <h2>Simple Pricing</h2>
+      <div class="price-card">
+        <h3>Lifetime Access</h3>
+        <div class="price">$4.99</div>
+        <p>One-time payment after your 2-day free trial.</p>
+        <ul>
+          <li>2-day free trial</li>
+          <li>Billed once if not cancelled</li>
+          <li>Unlimited comparisons</li>
+          <li>All features forever</li>
+          <li>No yearly plan — no recurring fees</li>
+        </ul>
+        <a href="#paywall" class="btn primary">Start Free Trial</a>
+      </div>
+    </section>
+
+    <section id="paywall" class="paywall">
+      <h2>Unlock Lapster: The before and after Master</h2>
+      <div id="license-status" class="status"></div>
+      <div class="offer">
+        <p><strong>2-day free trial</strong>, then <strong>$4.99</strong> lifetime access — billed once if you don’t cancel.</p>
+        <button id="start-trial" class="btn primary">Start 2-Day Free Trial</button>
+        <button id="purchase-lifetime" class="btn secondary" style="display:none;">Purchase Lifetime — $4.99</button>
+      </div>
+      <p class="small">By starting the trial you agree to the terms. Cancel anytime during the trial to avoid the one-time charge. No other plans available.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lapster: The before and after Master. <a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>
