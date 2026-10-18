@@ -29,7 +29,7 @@ Pricing:
 • No yearly plan. No recurring subscription. No other prices.
 
 Privacy Policy URL: https://scottlev696-cpu.github.io/lapster/privacy.html
-(Replace with the live GitHub Pages URL after hosting.)
+(Enable GitHub Pages on the master branch in repo Settings > Pages to make this live.)
 
 Category: Photography or Lifestyle
 Content rating: Everyone
